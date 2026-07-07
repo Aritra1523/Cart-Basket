@@ -1,7 +1,4 @@
-// ------------------------------------------------------------------
-// Automatic discount tiers based on cart subtotal.
-// Highest qualifying threshold wins (tiers are checked high -> low).
-// ------------------------------------------------------------------
+
 const DISCOUNT_TIERS = [
   { threshold: 2000, percent: 15 },
   { threshold: 1000, percent: 10 },
